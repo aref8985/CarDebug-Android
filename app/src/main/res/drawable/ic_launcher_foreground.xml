@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow Ring -->
+    <path
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+        android:strokeWidth="1"
+        android:strokeColor="#33FFFFFF" />
+
+    <!-- Car Body Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,65L85,58C85,55.5 83,53 80,52L72,50L68,38C67,35 64,33 60,33L48,33C44,33 41,35 40,38L36,50L28,52C25,53 23,55.5 23,58L23,65C23,66 24,67 25,67L83,67C84,67 85,66 85,65ZM38,50L41,40C41.5,38.5 43,37.5 45,37.5L63,37.5C65,37.5 66.5,38.5 67,40L70,50L38,50Z" />
+
+    <!-- Connection/Lightning Bolt (Stylized RF) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M54,65L45,85L53,85L48,100L65,75L56,75L62,65Z" />
+
+    <!-- Stylized Dashboard Arc -->
+    <path
+        android:pathData="M25,80A35,35 0,0 1,83,80"
+        android:strokeWidth="4"
+        android:strokeColor="#FF9800"
+        android:strokeLineCap="round" />
+</vector>
