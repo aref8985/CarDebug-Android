@@ -1,70 +1,61 @@
 # 🚗 CarDebug - OBD2 Android Diagnostic App
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-purple.svg)](https://kotlinlang.org/)
-[![Android](https://img.shields.io/badge/Android-API%2024+-green.svg)](https://developer.android.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-purple.svg)
+![Android](https://img.shields.io/badge/Android-API%2024+-green.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-> **A native Android application for real-time vehicle diagnostics using OBD2 protocol**
+> **Android application for real-time vehicle diagnostics via OBD2 & ELM327**
 
 ---
 
 ## 📱 Overview
 
-**CarDebug** is a professional Android application that connects to your vehicle's ECU (Engine Control Unit) via an **ELM327** device over **Bluetooth**. It provides real-time diagnostics, sensor monitoring, and fault code analysis.
+**CarDebug** connects to your vehicle's ECU via **ELM327** over **Bluetooth** to provide real-time diagnostics, sensor monitoring, and fault code analysis.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- 🔌 **Bluetooth connection** to ELM327 OBD2 adapter
-- 📊 **Real-time sensor data** (speed, RPM, coolant temp, battery voltage, etc.)
-- ⚠️ **DTC reading & analysis** with detailed descriptions
-- 📈 **Live data charts** for trend monitoring
-- 💾 **History logging** with Room database
-- 🚦 **Support for multiple OBD2 protocols** (ISO 9141-2, KWP2000, CAN, etc.)
-- 🎨 **Modern Material Design UI**
+- 🔌 Bluetooth connection to ELM327
+- 📊 Real-time sensor data (Speed, RPM, Temp, Voltage, etc.)
+- ⚠️ DTC reading & analysis with descriptions
+- 📈 Live data charts for trend monitoring
+- 💾 History logging with Room Database
+- 🎨 Modern Material Design UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Kotlin** - Primary programming language
-- **Android SDK** - Native Android development
-- **Room Database** - Local data persistence
-- **Coroutines & Flow** - Asynchronous processing
-- **Bluetooth API** - ELM327 connection
-- **OBD2 Protocol** - ECU communication
-- **MPAndroidChart** - Professional charts
-- **Material Design** - Modern UI
+| Technology | Purpose |
+|------------|---------|
+| **Kotlin** | Primary language |
+| **Android SDK** | Native development |
+| **Room DB** | Local data persistence |
+| **Coroutines** | Async processing |
+| **Bluetooth API** | ELM327 connection |
+| **OBD2 Protocol** | ECU communication |
+| **MPAndroidChart** | Data charts |
+| **Material Design** | Modern UI |
 
 ---
 
-## 🚀 Installation & Setup
+## 📁 Project Structure
 
-### Prerequisites
-- Android Studio Iguana or later
-- Android SDK API 24+
-- ELM327 OBD2 adapter (for physical testing)
+| Directory | Description |
+|-----------|-------------|
+| `data/` | Room Database, DAOs, and Repository implementation |
+| `domain/` | Business models and UseCases |
+| `presentation/` | Activities, Fragments, and ViewModels |
+| `bluetooth/` | Bluetooth connection and ELM327 management |
+| `obd2/` | OBD2 protocol parsing and PID handling |
+| `res/` | UI resources (layouts, drawables, strings, themes) |
 
-### Steps
-```bash
-# 1. Clone the repository
-git clone https://github.com/aref8985/CarDebug-Android.git
+👨‍💻 Developer
+Aref Mostafavi
 
-# 2. Open in Android Studio
-cd CarDebug-Android
+🎯 Senior Software Engineer | Full-Stack & Android Developer
 
-# 3. Build and run on device or emulator
+📍 Tehran, Iran
 
-CarDebug-Android/
-├── app/
-│   ├── src/main/java/com/example/cardebug/
-│   │   ├── data/           # Data layer (Room, Repository)
-│   │   ├── domain/         # Domain layer (UseCases, Entities)
-│   │   ├── presentation/   # Presentation layer (ViewModel, UI)
-│   │   ├── bluetooth/      # Bluetooth connection management
-│   │   └── obd2/           # OBD2 protocol processing
-│   └── src/main/res/       # UI resources
-├── gradle/
-├── build.gradle.kts
-└── settings.gradle.kts
+💼 6+ years of experience in software development
