@@ -3,7 +3,6 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-purple.svg)](https://kotlinlang.org/)
 [![Android](https://img.shields.io/badge/Android-API%2024+-green.svg)](https://developer.android.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/aref8985/CarDebug-Android)](https://github.com/aref8985/CarDebug-Android/stargazers)
 
 > **A native Android application for real-time vehicle diagnostics using OBD2 protocol**
 
@@ -13,7 +12,9 @@
 
 **CarDebug** is a professional Android application that connects to your vehicle's ECU (Engine Control Unit) via an **ELM327** device over **Bluetooth**. It provides real-time diagnostics, sensor monitoring, and fault code analysis.
 
-### ✨ Key Features
+---
+
+## ✨ Key Features
 
 - 🔌 **Bluetooth connection** to ELM327 OBD2 adapter
 - 📊 **Real-time sensor data** (speed, RPM, coolant temp, battery voltage, etc.)
@@ -27,25 +28,14 @@
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **Kotlin** | Primary programming language |
-| **Android SDK** | Native Android development |
-| **Room Database** | Local data persistence |
-| **Coroutines & Flow** | Asynchronous processing |
-| **Bluetooth API** | ELM327 connection |
-| **OBD2 Protocol** | ECU communication |
-| **MPAndroidChart** | Professional charts |
-| **Material Design** | Modern UI |
-
-┌─────────────────────────────────────────┐
-│ 🔌 Connecting to ELM327... │
-│ 📊 Speed: 85 km/h │
-│ 🔥 RPM: 3200 │
-│ 🌡️ Coolant Temp: 92°C │
-│ ⚡ Battery Voltage: 13.8V │
-│ ⚠️ DTC: P0300 - Misfire Detected │
-└─────────────────────────────────────────┘
+- **Kotlin** - Primary programming language
+- **Android SDK** - Native Android development
+- **Room Database** - Local data persistence
+- **Coroutines & Flow** - Asynchronous processing
+- **Bluetooth API** - ELM327 connection
+- **OBD2 Protocol** - ECU communication
+- **MPAndroidChart** - Professional charts
+- **Material Design** - Modern UI
 
 ---
 
